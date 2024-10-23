@@ -47,6 +47,7 @@ function validarelementos(){
     */
 
     var nserie= document.getElementById("nserie");
+    var enviar= document.getElementById("enviadatos");
     var textoetiqueta= document.getElementById("nserie2");
     var checkbox= document.getElementById("condiciones").checked;
     
@@ -66,7 +67,7 @@ function validarelementos(){
         document.getElementById("demo").innerHTML = "Necesitas marcar la casilla de las condiciones de servicio";
         document.getElementById("demo1").innerHTML = "El numero de serie es incorrecto";
     }else{
-        document.write("Los datos han sido enviados");
+        enviar.setAttribute("type","submit");
     }
 
 

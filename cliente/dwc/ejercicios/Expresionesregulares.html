@@ -1,0 +1,37 @@
+<html>
+
+    <head> 
+
+        <title>Ejercicio 4</title>
+    </head>
+
+    <body>
+
+    <h1>Escribe algo</h1>
+
+    <textarea id="texto" onkeypress="return limita(100);"></textarea>
+
+        <p id="demo"></p>
+    </body>
+
+    <script>
+
+ function limita(maximoCaracteres) {
+ var elemento = document.getElementById("texto");
+ if(elemento.value.length >= maximoCaracteres ) {
+ return false;
+ }
+ else {
+ var caracteresrestantes  = maximoCaracteres - elemento.value.length;
+document.getElementById("demo").innerHTML = caracteresrestantes;
+ return true;
+}
+ }
+
+
+
+
+
+    </script>
+
+</html>

@@ -1,0 +1,109 @@
+
+<html>
+<head>
+<title>Primer trabajo</title>
+
+
+<style>
+
+    .formulario{
+        border:1px solid red
+
+    }
+
+
+h1{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+            display: flex; 
+            align-items: center;
+            margin: 20px; 
+        }
+        .left {
+            margin-right: 20px; 
+        }
+
+
+.oculto { display: none; }
+
+.visible { display: inline; }
+
+
+.demo{
+    background-color: red;
+    color: white;
+}
+
+</style>
+
+
+</style>
+
+<script src="script.js"></script>
+
+</head>
+
+
+
+
+<body>
+
+<h1>INFORME INCIDENCIA</h1>
+
+<div class="container">
+
+<div class="left">
+    <img src="distribucion.jpg" width="250" height="250" id="imagen">
+
+
+
+</div>
+
+
+<div class="right">
+    <form>
+        <label for="incidencia">Tipo de incidencia </label>
+        <select name="incidencias" id="desplegable" onchange="imagenes()">
+            <option value="Distribucion">Distribucion</option>
+            <option value="Produccion">Produccion</option>
+            <option value="Oficina">Oficina</option>
+          </select>
+
+        <br>
+
+         <label for="nserie" id="nserie2">Numero de serie</label>
+         <input type="text" name="nserie" id="nserie" onclick="desaparecer1()"/>
+
+
+        <br>
+
+        <button id="mostrardescrip" type ="button" onclick="muestradescripcion()">Mostrar descripcion</button><br>
+        <p id="Descripcion"></p>
+        <input type="checkbox" id="condiciones" name="condiciones" value="condiciones" onclick="desaparecer2()">
+         <label for="condiciones"> He leido y haceptado las condiciones de servicio</label><br>
+         
+         <br>
+
+         <button id="enviadatos" type="button" value="Enviar datos" onclick="validarelementos()">Enviar Datos</button><br>
+
+
+    </form>
+
+
+
+</div>
+</div>
+<div class="demo">
+<p id="demo"></p>
+<p id="demo1"></p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Simulacion Poker</title>
+    <style>
+        body{
+            background-color:#459940;
+            font-family: Arial, sans-serif;
+        }
+        h1{
+            text-align: center;
+            background-color: #76c75d;
+            color:white;
+        }
+        table{
+            border: 2px solid black;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        }
+        th{
+            background-color: #4CAF50;
+        color: white; 
+        padding: 12px;
+        text-align: Center; 
+        }
+         td {
+    border: 1px solid #ddd;
+}
+
+        #boton {
+    background-color: #4CAF50; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    border: none; 
+    border-radius: 8px; 
+}
+
+#boton:hover {
+    background-color: #45a049; 
+}
+
+#p1 {
+    text-align: center;
+    background-color: #76c75d;
+    color:white;
+    font-size: large;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <h1>Simulacion poker</h1>
+
+    <button id="boton" onclick="mostrarcartashtml()"> REPARTIR</button>
+
+    <table style="width: 100%;">
+        <tr>
+            <th>Carta 1</th>
+            <th>Carta 2</th>
+            <th>Carta 3</th>
+            <th>Carta 4</th>
+            <th>Carta 5</th>
+        </tr>
+        <tr>
+            <td><img id="1" src="cartas/dorso-rojo.svg"></td>
+            <td> <img id="2" src="cartas/dorso-rojo.svg"></td>
+            <td> <img  id="3" src="cartas/dorso-rojo.svg"></td>
+            <td> <img id="4" src="cartas/dorso-rojo.svg"></td>
+            <td> <img  id="5" src="cartas/dorso-rojo.svg"></td>
+        </tr>
+    </table>
+
+
+<p id="carta1"></p>
+<p id="cartaprueba"></p>
+<p id="carta3"></p>
+<p id="carta4"></p>
+<p id="manojugador"></p>
+
+<!--NO BORRAR-->
+<strong><p id="p1"></p></strong>
+
+
+</body>
+
+<script src="scripttrabajo.js"></script></script>
+
+
+</html>

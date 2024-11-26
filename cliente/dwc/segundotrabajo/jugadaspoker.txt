@@ -1,0 +1,15 @@
+[*]Pareja: Dos cartas del mismo valor, por ejemplo, dos reyes. Se complementa con tres cartas adicionales de diferentes valores.
+
+Doble pareja Doble pareja: Dos pares de cartas del mismo valor, más una carta adicional. Por ejemplo, dos reyes y dos dieces, junto con un cinco. En caso de empate, se compara el valor de los pares más altos.
+
+[*]Trío: Tres cartas del mismo valor, más dos cartas adicionales de diferentes valores. Por ejemplo, tres ases y un rey y un cinco. Si dos jugadores tienen un trío, gana el que tenga el trío de mayor valor.
+
+[***]Escalera: Cinco cartas en secuencia numérica, no necesariamente del mismo palo. Por ejemplo, 5, 6, 7, 8 y 9. La escalera más alta es la que termina en un as (A, K, Q, J, 10).
+
+[*]Color: Cinco cartas del mismo palo, pero no en secuencia. Por ejemplo, cinco cartas de corazones. Si dos jugadores tienen color, gana el que tenga la carta más alta.
+
+Full: Una combinación de un trío y una pareja. Por ejemplo, tres reinas y dos dieces. En caso de empate, se compara el valor del trío primero, y si son iguales, se compara el valor de la pareja.
+
+[*]Póker: Cuatro cartas del mismo valor y una carta adicional. Por ejemplo, cuatro jotas y un tres. Si dos jugadores tienen póker, gana el que tenga el póker de mayor valor.
+
+[****]Escalera de color: Cinco cartas en secuencia del mismo palo. Por ejemplo, 5, 6, 7, 8 y 9 de tréboles. La escalera de color más alta es la escalera real, que es A, K, Q, J y 10 del mismo palo.
